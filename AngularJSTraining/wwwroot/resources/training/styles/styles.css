@@ -1,0 +1,47 @@
+﻿.app-content * {
+    border-radius: 0 !important;
+}
+
+.todo {
+    position: relative;
+    padding-right: 140px;
+}
+
+    .todo .title {
+        height: 34px;
+        line-height: 34px;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+
+    .todo .status {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 15px;
+        height: 34px;
+        margin: auto;
+    }
+
+        .todo .status .dropdown-toggle {
+            width: 125px;
+        }
+
+        .todo .status .dropdown-menu {
+            right: 0;
+            left: auto;
+        }
+
+            .todo .status .dropdown-menu .btn {
+                padding: 6px 12px;
+            }
+
+                .todo .status .dropdown-menu .btn:not(.btn-default) {
+                    color: #fff;
+                }
+
+@media screen and (max-width: 600px) {
+    .app-content {
+        padding: 0;
+    }
+}

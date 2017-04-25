@@ -1,0 +1,115 @@
+﻿<!DOCTYPE html>
+<html ng-app="ngTraining">
+<head>
+    <base href="/" />
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <meta name="description" content="Futurify | AngularJS training project">
+    <meta name="author" content="Futurify Trainer">
+
+    <title>AngularJS Training</title>
+
+    <link rel="shortcut icon" href="resources/training/images/favicon.png" />
+
+    <link href="resources/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="resources/training/styles/styles.css" rel="stylesheet" />
+</head>
+<body>
+
+    <!-- STATIC NAVABAR -->
+    <nav class="navbar navbar-default navbar-static-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">AngularJS Traning</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="/">TODOs</a></li>
+                    <li><a href="/new">New TODO</a></li>
+                </ul>
+            </div><!--/.nav-collapse -->
+        </div>
+    </nav>
+    <!-- / STATIC NAVBAR -->
+    <!-- CONTENT -->
+    <div class="container app-content">
+        <div class="panel panel-info">
+            <div class="panel-heading">
+                <h3 class="panel-title">TODOs</h3>
+            </div>
+            <div class="panel-body">
+                <ul class="list-group">
+                    <li class="list-group-item todo">
+                        <div class="title">
+                            Prepare project
+                        </div>
+                        <div class="btn-group status">
+                            <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                COMPLETED <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="btn btn-warning">PENDING</a></li>
+                                <li><a class="btn btn-danger">REMOVE</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="list-group-item todo">
+                        <div class="title">
+                            Prepare project
+                        </div>
+                        <div class="btn-group status">
+                            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                PENDING <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="btn btn-success">COMPLETED</a></li>
+                                <li><a class="btn btn-danger">REMOVE</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- / CONTENT -->
+    <!-- FRAMEWORK-LIBRARY -->
+    <script src="resources/jquery/jquery.min.js"></script>
+    <script src="resources/bootstrap/js/bootstrap.min.js"></script>
+    <script src="resources/angularjs/angular.min.js"></script>
+    <script src="resources/angularjs/angular-animate.min.js"></script>
+    <script src="resources/angularjs/angular-cookies.min.js"></script>
+    <script src="resources/angularjs/angular-messages.min.js"></script>
+    <script src="resources/angularjs/angular-route.min.js"></script>
+    <script src="resources/angularjs/angular-sanitize.min.js"></script>
+    <script src="resources/angularjs/angular-touch.min.js"></script>
+
+    <script src="resources/helpers/ui-bootstrap-tpls-2.5.0.min.js"></script>
+    <!-- / FRAMEWORK-LIBRARY -->
+    <!-- TRAINING APP -->
+    <!-- BOOTSTRAPING -->
+
+    <script src="app/app.module.js"></script>
+
+    <!-- CONFIG -->
+    <!-- / CONFIG -->
+    <!-- / BOOTSTRAPING -->
+    <!-- SERVICES -->
+    <!-- / SERVICES -->
+    <!-- DIRECTIVES -->
+    <!-- / DIRECTIVES-->
+    <!-- CONTROLLERS -->
+    <!-- / CONTROLLERS -->
+    <!-- / TRAINING APP -->
+
+</body>
+</html>

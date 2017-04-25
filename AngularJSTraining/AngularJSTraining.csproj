@@ -1,0 +1,82 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="wwwroot\.html" />
+    <Content Include="wwwroot\app\app.module.js">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="wwwroot\app\blank.app.module.js" />
+    <Content Include="wwwroot\blank.index.html" />
+    <Content Include="wwwroot\index - Copy.html" />
+    <Content Include="wwwroot\index.html" />
+    <Content Include="wwwroot\resources\angularjs\angular-animate.js" />
+    <Content Include="wwwroot\resources\angularjs\angular-animate.min.js" />
+    <Content Include="wwwroot\resources\angularjs\angular-animate.min.js.map" />
+    <Content Include="wwwroot\resources\angularjs\angular-aria.js" />
+    <Content Include="wwwroot\resources\angularjs\angular-aria.min.js" />
+    <Content Include="wwwroot\resources\angularjs\angular-aria.min.js.map" />
+    <Content Include="wwwroot\resources\angularjs\angular-cookies.js" />
+    <Content Include="wwwroot\resources\angularjs\angular-cookies.min.js" />
+    <Content Include="wwwroot\resources\angularjs\angular-cookies.min.js.map" />
+    <Content Include="wwwroot\resources\angularjs\angular-csp.css" />
+    <Content Include="wwwroot\resources\angularjs\angular-loader.js" />
+    <Content Include="wwwroot\resources\angularjs\angular-loader.min.js" />
+    <Content Include="wwwroot\resources\angularjs\angular-loader.min.js.map" />
+    <Content Include="wwwroot\resources\angularjs\angular-message-format.js" />
+    <Content Include="wwwroot\resources\angularjs\angular-message-format.min.js" />
+    <Content Include="wwwroot\resources\angularjs\angular-message-format.min.js.map" />
+    <Content Include="wwwroot\resources\angularjs\angular-messages.js" />
+    <Content Include="wwwroot\resources\angularjs\angular-messages.min.js" />
+    <Content Include="wwwroot\resources\angularjs\angular-messages.min.js.map" />
+    <Content Include="wwwroot\resources\angularjs\angular-mocks.js" />
+    <Content Include="wwwroot\resources\angularjs\angular-parse-ext.js" />
+    <Content Include="wwwroot\resources\angularjs\angular-parse-ext.min.js" />
+    <Content Include="wwwroot\resources\angularjs\angular-parse-ext.min.js.map" />
+    <Content Include="wwwroot\resources\angularjs\angular-resource.js" />
+    <Content Include="wwwroot\resources\angularjs\angular-resource.min.js" />
+    <Content Include="wwwroot\resources\angularjs\angular-resource.min.js.map" />
+    <Content Include="wwwroot\resources\angularjs\angular-route.js" />
+    <Content Include="wwwroot\resources\angularjs\angular-route.min.js" />
+    <Content Include="wwwroot\resources\angularjs\angular-route.min.js.map" />
+    <Content Include="wwwroot\resources\angularjs\angular-sanitize.js" />
+    <Content Include="wwwroot\resources\angularjs\angular-sanitize.min.js" />
+    <Content Include="wwwroot\resources\angularjs\angular-sanitize.min.js.map" />
+    <Content Include="wwwroot\resources\angularjs\angular-scenario.js" />
+    <Content Include="wwwroot\resources\angularjs\angular-touch.js" />
+    <Content Include="wwwroot\resources\angularjs\angular-touch.min.js" />
+    <Content Include="wwwroot\resources\angularjs\angular-touch.min.js.map" />
+    <Content Include="wwwroot\resources\angularjs\angular.js" />
+    <Content Include="wwwroot\resources\angularjs\angular.min.js" />
+    <Content Include="wwwroot\resources\angularjs\angular.min.js.map" />
+    <Content Include="wwwroot\resources\bootstrap\css\bootstrap-theme.css" />
+    <Content Include="wwwroot\resources\bootstrap\css\bootstrap-theme.css.map" />
+    <Content Include="wwwroot\resources\bootstrap\css\bootstrap-theme.min.css" />
+    <Content Include="wwwroot\resources\bootstrap\css\bootstrap-theme.min.css.map" />
+    <Content Include="wwwroot\resources\bootstrap\css\bootstrap.css" />
+    <Content Include="wwwroot\resources\bootstrap\css\bootstrap.css.map" />
+    <Content Include="wwwroot\resources\bootstrap\css\bootstrap.min.css" />
+    <Content Include="wwwroot\resources\bootstrap\css\bootstrap.min.css.map" />
+    <Content Include="wwwroot\resources\bootstrap\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="wwwroot\resources\bootstrap\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="wwwroot\resources\bootstrap\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="wwwroot\resources\bootstrap\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="wwwroot\resources\bootstrap\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="wwwroot\resources\bootstrap\js\bootstrap.js" />
+    <Content Include="wwwroot\resources\bootstrap\js\bootstrap.min.js" />
+    <Content Include="wwwroot\resources\bootstrap\js\npm.js" />
+    <Content Include="wwwroot\resources\helpers\ui-bootstrap-tpls-2.5.0.min.js" />
+    <Content Include="wwwroot\resources\jquery\jquery.min.js" />
+    <Content Include="wwwroot\resources\training\images\favicon.png" />
+    <Content Include="wwwroot\resources\training\styles.css" />
+    <Content Include="wwwroot\resources\training\styles\styles.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore" Version="1.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="1.1.1" />
+  </ItemGroup>
+
+</Project>
