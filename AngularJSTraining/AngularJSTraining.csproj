@@ -5,14 +5,28 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Include="wwwroot\.html" />
-    <Content Include="wwwroot\app\app.module.js">
+    <Content Include="wwwroot\app\app.routes.js">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="wwwroot\app\todo.app.module.js">
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
     </Content>
     <Content Include="wwwroot\app\blank.app.module.js" />
+    <Content Include="wwwroot\app\todo.app.routes.js" />
+    <Content Include="wwwroot\app\todo\AddToDoController.js" />
+    <Content Include="wwwroot\app\todo\newtodo.controller.js" />
+    <Content Include="wwwroot\app\todo\newtodo.html" />
+    <Content Include="wwwroot\app\todo\todolist - Copy.html">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="wwwroot\app\todo\todolist.controller.js" />
+    <Content Include="wwwroot\app\todo\todolist.html" />
+    <Content Include="wwwroot\app\todo\AddNewToDoController.js">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="wwwroot\app\todo\ToDoListController.js" />
     <Content Include="wwwroot\blank.index.html" />
-    <Content Include="wwwroot\index - Copy.html" />
-    <Content Include="wwwroot\index.html" />
+    <Content Include="wwwroot\todo.index.html" />
     <Content Include="wwwroot\resources\angularjs\angular-animate.js" />
     <Content Include="wwwroot\resources\angularjs\angular-animate.min.js" />
     <Content Include="wwwroot\resources\angularjs\angular-animate.min.js.map" />
@@ -71,7 +85,6 @@
     <Content Include="wwwroot\resources\helpers\ui-bootstrap-tpls-2.5.0.min.js" />
     <Content Include="wwwroot\resources\jquery\jquery.min.js" />
     <Content Include="wwwroot\resources\training\images\favicon.png" />
-    <Content Include="wwwroot\resources\training\styles.css" />
     <Content Include="wwwroot\resources\training\styles\styles.css" />
   </ItemGroup>
   <ItemGroup>

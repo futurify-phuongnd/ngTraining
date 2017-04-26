@@ -29,6 +29,7 @@ namespace AngularJSTraining
             var trackPackageRouteHandler = new RouteHandler(context =>
             {
                 var file = env.WebRootFileProvider.GetFileInfo("index.html");
+                context.Response.ContentType = "text/html";
                 return context.Response.SendFileAsync(file);
             });
 

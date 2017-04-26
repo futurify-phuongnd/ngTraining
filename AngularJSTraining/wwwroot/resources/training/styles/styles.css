@@ -2,6 +2,12 @@
     border-radius: 0 !important;
 }
 
+.panel-add-todo {
+    max-width: 100%;
+    width: 500px;
+    margin: auto;
+}
+
 .todo {
     position: relative;
     padding-right: 140px;
@@ -43,5 +49,10 @@
 @media screen and (max-width: 600px) {
     .app-content {
         padding: 0;
+    }
+
+    .panel {
+        border-left: none;
+        border-right: none;
     }
 }
